@@ -42,11 +42,11 @@ String. Optional. Defaults to "GET",
 
 #### url
 
-String. URL to which the request is sent,
+String. Required. URL to which the request is sent,
 
 #### data
 
-String. Name/value pairs of form data. If you set headers, it can be any type of data the header defines.
+String. Required for POST or PUT. Name/value pairs of form data. If you set headers, it can be any type of data the header defines.
 
 #### headers
 
@@ -74,29 +74,29 @@ Function. Optional. Run on error,
 
 **fn**
 
-Function. Optional. Sets a function that runs on success or error.
+Function. Required. Sets a function that runs on success or error.
 
 ### done(fn)
 
 **fn**
 
-Function. Optional. Sets a function that runs on success.
+Function. Required. Sets a function that runs on success.
 
 ### fail(fn)
 
 **fn**
 
-Function. Optional. Sets a function that runs on error.
+Function. Required. Sets a function that runs on error.
 
 ### then(fn_done, fn_fail)
 
 **fn_done**
 
-Function. Optional. Sets a function that runs on success.
+Function. Required. Sets a function that runs on success.
 
 **fn_fail**
 
-Function. Optional. Sets a function that runs on error.
+Function. Required. Sets a function that runs on error.
 
 ## Notes
 
