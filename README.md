@@ -104,7 +104,7 @@ At minimum you must pass an url and call the always or done methods with a funct
 
 ## Examples
 
-### Call with simple url and success and fail promises
+### Call with simple url, success, and fail promises
 
     ajax("/getStatistics/email")
       .done(processData)
